@@ -1,0 +1,116 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+    outline: none;
+    font-family: "微软雅黑", sans-serif;
+}
+h1,h2,h3,h4,h5,h6{
+    font-weight: normal;
+}
+.dis{
+    display: none;
+}
+body{
+    margin:auto;
+}
+
+.header{
+    width: 10rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: white;
+    z-index:999;
+}
+.header_con{
+    width: 9.36rem;
+    height: 1.173rem;
+    margin:auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header_con>a{
+    display: block;
+    width: 0.6rem;
+    height: 0.5rem;
+}
+.header_con>a:nth-of-type(1){
+    background: url("../img/arrow3.png") center no-repeat;
+    -webkit-background-size: 0.267rem 0.467rem;
+    background-size: 0.267rem 0.467rem;
+}
+.header_con>a:nth-of-type(2){
+    background: url("../img/classify.png") center no-repeat;
+    -webkit-background-size: 0.48rem 0.373rem;
+    background-size: 0.48rem 0.373rem;
+}
+.header>ul>li{
+    text-align: center;
+    border-bottom: 0.013rem solid #ddd;
+    background-color: white;
+}
+.header>ul>li>a{
+    display: block;
+    line-height: 1.2rem;
+    font-size:0.36rem;
+    color: #333;
+}
+
+.banner{
+    width: 10rem;
+    height: 4.267rem;
+    background: url("../img/banner2.png") no-repeat center;
+    -webkit-background-size: 10rem 4.267rem;
+    background-size: 10rem 4.267rem;
+    margin-top:1.173rem;
+}
+
+.introduce{
+    width: 9.347rem;
+    margin: 0.42rem auto;
+}
+.introduce_t{
+    height: 1.3rem;
+    text-align: center;
+}
+.introduce_t>h4{
+    font-size: 0.453rem;
+    color: #11cb76;
+}
+.introduce_t>p{
+    font-size: 0.347rem;
+    color: #999999;
+}
+.introduce_img{
+    width: 9.347rem;
+    height: 4.827rem;
+    background: url("../img/banner3.png") no-repeat center;
+    -webkit-background-size: 9.347rem 4.827rem;
+    background-size: 9.347rem 4.827rem;
+}
+.introduce>ul>li:nth-of-type(1){
+    border-bottom: 0.027rem solid #eee;
+}
+.introduce>ul>li>h2{
+    font-size: 0.4rem;
+    color: #333333;
+    line-height: 1.5rem;
+}
+.introduce>ul>li>p{
+    font-size: 0.373rem;
+    color: #666666;
+    text-indent: 0.8rem;
+    margin-bottom: 0.6rem;
+    line-height: 0.58rem;
+}
+.other>ul{
+    display: flex;
+    justify-content: space-between;
+}
+.other>ul>li>img{
+    width: 4.44rem;
+    height: 2.973rem;
+}

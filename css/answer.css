@@ -1,0 +1,184 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+    outline: none;
+    font-family: "微软雅黑", sans-serif;
+}
+h1,h2,h3,h4,h5,h6{
+    font-weight: normal;
+}
+.dis{
+    display: none;
+}
+body{
+    margin:auto;
+}
+
+.header{
+    width: 10rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: white;
+    z-index:999;
+}
+.header_con{
+    width: 9.36rem;
+    height: 1.173rem;
+    margin:auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header_con>a{
+    display: block;
+    width: 0.6rem;
+    height: 0.5rem;
+}
+.header_con>a:nth-of-type(1){
+    background: url("../img/arrow3.png") center no-repeat;
+    -webkit-background-size: 0.267rem 0.467rem;
+    background-size: 0.267rem 0.467rem;
+}
+.header_con>a:nth-of-type(2){
+    background: url("../img/classify.png") center no-repeat;
+    -webkit-background-size: 0.48rem 0.373rem;
+    background-size: 0.48rem 0.373rem;
+}
+.header>ul>li{
+    text-align: center;
+    border-bottom: 0.013rem solid #ddd;
+    background-color: white;
+}
+.header>ul>li>a{
+    display: block;
+    line-height: 1.2rem;
+    font-size:0.36rem;
+    color: #333;
+}
+
+/*main*/
+.main{
+    width: 9.36rem;
+    margin:1.173rem auto 0;
+}
+.main>h2{
+    font-size: 0.453rem;
+    color: #333333;
+    margin-bottom: 0.5rem;
+}
+.main>i{
+    display: block;
+    width: 9.373rem;
+    height: 0.347rem;
+    background: url("../img/ruler.png") left center;
+    background-size: 9.373rem 0.347rem;
+}
+.main>ul>li{
+    width: 9.36rem;
+    margin-top: 0.7rem;
+    box-sizing: border-box;
+    border-bottom: 0.133rem solid #eee;
+    position: relative;
+}
+.patient{
+    display: flex;
+    justify-content: space-between;
+    height: 0.6rem;
+    margin-bottom: 0.333rem;
+}
+.patient>h4{
+    font-size: 0.373rem;
+    color: #333333;
+    line-height: 0.6rem;
+}
+.patient>h4>img{
+    width: 0.6rem;
+    height: 0.6rem;
+    vertical-align: top;
+}
+.patient>p{
+    font-size: 0.32rem;
+    color: #999999;
+    line-height: 0.6rem;
+}
+.condition{
+    display: flex;
+    justify-content: space-between;
+    width: 8.733rem;
+}
+.condition_l{
+    width: 0.48rem;
+    height: 1.413rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.condition_l>i{
+    display: block;
+    width: 0.48rem;
+    height: 0.533rem;
+    background: url("../img/ask.png") no-repeat left center;
+    -webkit-background-size: 0.48rem 0.533rem;
+}
+.condition_l>i:nth-of-type(2){
+    background: url("../img/answer.png") no-repeat left center;
+    -webkit-background-size: 0.48rem 0.533rem;
+}
+.condition_r{
+    width: 8rem;
+}
+.condition_r>h4{
+    font-size: 0.373rem;
+    color: #333333;
+    margin-bottom: 0.3rem;
+}
+.condition_r>p{
+    font-size: 0.373rem;
+    color: #999999;
+    margin-bottom: 1.2rem;
+}
+.main>ul>li>a{
+    display: block;
+    width: 2.4rem;
+    line-height: 0.72rem;
+    text-align: center;
+    font-size: 0.347rem;
+    color: #1c81ce;
+    position: absolute;
+    left: 0.2rem;
+    bottom: 0.16rem;
+}
+.main>ul>li>a>i{
+    display: inline-block;
+    width: 0.36rem;
+    height: 0.187rem;
+    vertical-align: middle;
+    background: url("../img/arrow5.png") no-repeat center;
+    -webkit-background-size: 0.187rem;
+    background-size: 0.36rem;
+}
+.main>a{
+    display: block;
+    width: 8rem;
+    line-height: 1.1rem;
+    text-align: center;
+    margin: 0.2rem auto;
+    font-size: 0.453rem;
+    color: #ccc;
+}
+.main>a>i{
+    display: inline-block;
+    width: 0.347rem;
+    height: 0.373rem;
+    background: url("../img/arrow4.png") no-repeat center;
+    -webkit-background-size: 0.347rem 0.373rem;
+    background-size: 0.347rem 0.373rem;
+    vertical-align: middle;
+}
+.flip{
+    transform: rotate(180deg)!important;
+}
+

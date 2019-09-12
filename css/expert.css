@@ -1,0 +1,133 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+    outline: none;
+    font-family: "微软雅黑", sans-serif;
+}
+h1,h2,h3,h4,h5,h6{
+    font-weight: normal;
+}
+.dis{
+    display: none;
+}
+body{
+    margin:auto;
+}
+
+.header{
+    width: 10rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: white;
+    z-index:999;
+}
+.header_con{
+    width: 9.36rem;
+    height: 1.173rem;
+    margin:auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header_con>a{
+    display: block;
+    width: 0.6rem;
+    height: 0.5rem;
+}
+.header_con>a:nth-of-type(1){
+    background: url("../img/arrow3.png") center no-repeat;
+    -webkit-background-size: 0.267rem 0.467rem;
+    background-size: 0.267rem 0.467rem;
+}
+.header_con>a:nth-of-type(2){
+    background: url("../img/classify.png") center no-repeat;
+    -webkit-background-size: 0.48rem 0.373rem;
+    background-size: 0.48rem 0.373rem;
+}
+.header>ul>li{
+    text-align: center;
+    border-bottom: 0.013rem solid #ddd;
+    background-color: white;
+}
+.header>ul>li>a{
+    display: block;
+    line-height: 1.2rem;
+    font-size:0.36rem;
+    color: #333;
+}
+
+/*banner*/
+.banner{
+    width: 9.36rem;
+    height: 18rem;
+    border: solid 0.013rem #dddddd;
+    border-top: 0.04rem solid #11cb76;
+    margin: 1.173rem auto 0;
+}
+.doctor{
+    width: 9.36rem;
+    height: 17.4rem;
+}
+.doctor>ul{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.doctor>ul>li{
+    width: 4.107rem;
+    height: 5rem;
+    box-shadow: 0.039rem 0.055rem 0.133rem 0rem rgba(0, 0, 0, 0.06);
+    text-align: center;
+    margin-top: 0.44rem;
+}
+.doctor>ul>li>a{
+    display: block;
+    width: 3.813rem;
+    height: 2.373rem;
+    margin: 0.13rem auto;
+}
+.doctor>ul>li>a>img{
+    width: 3.813rem;
+    height: 2.373rem;
+}
+.doctor>ul>li>h4{
+    font-size: 0.4rem;
+    color: #333333;
+    line-height: 0.8rem;
+}
+.doctor>ul>li>p{
+    font-size: 0.32rem;
+    color: #999999;
+}
+.doctor>ul>li>button{
+    width: 2.227rem;
+    line-height: 0.68rem;
+    background-color: #ffffff;
+    border-radius: 0.333rem;
+    border: solid 0.014rem #11cb76;
+    font-size: 0.32rem;
+    vertical-align:top;
+    color: #11cb76;
+    margin-top: 0.2rem;
+}
+.spot{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.spot>span{
+    width: 0.24rem;
+    height: 0.08rem;
+    background-color: #dddddd;
+    border-radius: 0.04rem;
+    opacity: 1;
+}
+.spot .swiper-pagination-bullet-active{
+    width: 0.2rem;
+    height: 0.2rem;
+    background-color: #11cb76;
+    border-radius: 0.1rem;
+}

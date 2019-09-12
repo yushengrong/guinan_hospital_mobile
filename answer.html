@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>医患答疑</title>
+    <link rel="stylesheet" href="./css/answer.css">
+</head>
+<body>
+<!--header-->
+<div class="header">
+    <div class="header_con">
+        <a href="javascript:history.back(-1)"></a>
+        <a href="javascript:"></a>
+    </div>
+    <ul class="dis">
+        <li><a href="./index.html">首页</a></li>
+        <li><a href="./register.html">预约挂号</a></li>
+        <li><a href="./department.html">找科室</a></li>
+        <li><a href="./expert.html">找专家</a></li>
+        <li><a href="./insurance.html">报医保</a></li>
+        <li><a href="./answer.html">医患解答</a></li>
+        <li><a href="./about.html">关于医院</a></li>
+    </ul>
+</div>
+
+<div class="main">
+    <h2>医院贴士：广大患者常见问题</h2>
+    <i></i>
+    <ul>
+        <li>
+            <div class="patient">
+                <h4>
+                    <img src="./img/name1.png" />
+                    我是个病人
+                </h4>
+                <p>07月05日发布问题</p>
+            </div>
+            <div class="condition">
+                <div class="condition_l">
+                    <i></i>
+                    <i></i>
+                </div>
+                <div class="condition_r">
+                    <h4>肿瘤靠近肺跟胸胀，胸腔有积水。这是癌症吗</h4>
+                    <p>
+                        你好，根据你的描述症状看，孩子的情况不容乐观，但是胸腔内的肿瘤是否恶性还要在做进...
+                    </p>
+                </div>
+            </div>
+            <a href="javascript:">查看全部 <i></i></a>
+        </li>
+        <li>
+            <div class="patient">
+                <h4>
+                    <img src="./img/name2.png" />
+                    我也生病了
+                </h4>
+                <p>07月05日发布问题</p>
+            </div>
+            <div class="condition">
+                <div class="condition_l">
+                    <i></i>
+                    <i></i>
+                </div>
+                <div class="condition_r">
+                    <h4>甲状腺乳头状癌症术后一个月了，现在吃饭噎</h4>
+                    <p>
+                        病情分析：您好，根据您的描述，您现在是甲状腺癌术后，出现吃饭噎，呼吸发憋的感觉...
+                    </p>
+                </div>
+            </div>
+            <a href="javascript:">查看全部 <i></i></a>
+        </li>
+        <li>
+            <div class="patient">
+                <h4>
+                    <img src="./img/name3.png" />
+                    你们怎么生病了
+                </h4>
+                <p>07月05日发布问题</p>
+            </div>
+            <div class="condition">
+                <div class="condition_l">
+                    <i></i>
+                    <i></i>
+                </div>
+                <div class="condition_r">
+                    <h4>请问我喝了发霉的豆浆会得癌症吗我担心啊</h4>
+                    <p>
+                        病情分析：你好，已经吃进去的食物先促进排泄掉，也不要过于紧张一定会得癌症这些的指导意见：人体是有代谢功能的，对身体不好的毒素会随着肝肾代谢掉，若是因为反复过多来及来不及代谢那可能致病哦，要注意下
+                    </p>
+                </div>
+            </div>
+            <a href="javascript:">查看全部 <i></i></a>
+        </li>
+        <li>
+            <div class="patient">
+                <h4>
+                    <img src="./img/name4.png" />
+                    他们吃坏肚子了
+                </h4>
+                <p>07月05日发布问题</p>
+            </div>
+            <div class="condition">
+                <div class="condition_l">
+                    <i></i>
+                    <i></i>
+                </div>
+                <div class="condition_r">
+                    <h4>甲状腺乳头状癌症术后一个月了，现在吃饭噎</h4>
+                    <p>
+                        病情分析：您好，根据您的描述，您现在是甲状腺癌术后，出现吃饭噎，呼吸发憋的感觉...
+                    </p>
+                </div>
+            </div>
+            <a href="javascript:">查看全部 <i></i></a>
+        </li>
+    </ul>
+    <a href="javascript:">打开更多 <i></i></a>
+</div>
+</body>
+<script src="./js/jquery-1.12.4.min.js"></script>
+<script>
+    $(document).ready(function () {
+        document.getElementsByTagName('html')[0].style.fontSize=window.screen.width/10+"px";
+
+        //导航
+        $('.header_con>a:last-of-type').on('click',function () {
+            $('.header>ul').slideToggle(200);
+        });
+
+        $('.main>a').on('click',function () {
+            $(this).children('i').toggleClass('flip');
+        });
+    });
+</script>
+</html>

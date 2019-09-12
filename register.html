@@ -1,0 +1,627 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>预约挂号</title>
+    <link rel="stylesheet" href="./css/register.css">
+</head>
+<body>
+<!--header-->
+<div class="header">
+    <div class="header_con">
+        <a href="javascript:"></a>
+        <a href="javascript:"></a>
+    </div>
+    <ul class="dis">
+        <li><a href="./index.html">首页</a></li>
+        <li><a href="./register.html">预约挂号</a></li>
+        <li><a href="./department.html">找科室</a></li>
+        <li><a href="./expert.html">找专家</a></li>
+        <li><a href="./insurance.html">报医保</a></li>
+        <li><a href="./answer.html">医患解答</a></li>
+        <li><a href="./about.html">关于医院</a></li>
+    </ul>
+</div>
+
+<!--找医生-->
+<div class="wants">
+    <div class="wants_tab">
+        <a href="javascript:">按疾病找</a><a class="wants_tab_active" href="javascript:">按科室找</a>
+    </div>
+    <div class="department">
+        <ul>
+            <li>
+                <h4>内科：</h4>
+                <ul class="department_con">
+                    <li><a href="javascript:">心血管内科</a></li>
+                    <li><a href="javascript:">心绞痛</a></li>
+                    <li><a href="javascript:">高血压</a></li>
+                    <li><a href="javascript:">心律失常</a></li>
+                    <li><a href="javascript:">心肌梗死</a></li>
+                    <li><a href="javascript:">心血管</a></li>
+                    <li><a href="javascript:">心肌病</a></li>
+                    <li><a href="javascript:">大肠</a></li>
+                </ul>
+            </li>
+            <li>
+                <h4>中医科:</h4>
+                <ul class="department_con">
+                    <li><a href="javascript:">月经不调</a></li>
+                    <li><a href="javascript:">带下病</a></li>
+                    <li><a href="javascript:">关节疾病</a></li>
+                    <li><a href="javascript:">皮肤病</a></li>
+                    <li><a href="javascript:">直肠疾病</a></li>
+                    <li><a href="javascript:">外科杂病</a></li>
+                    <li><a href="javascript:">腰椎病</a></li>
+                    <li><a href="javascript:">颈椎病</a></li>
+                </ul>
+            </li>
+            <li>
+                <h4>儿科:</h4>
+                <ul class="department_con">
+                    <li><a href="javascript:">呼吸</a></li>
+                    <li><a href="javascript:">消化</a></li>
+                    <li><a href="javascript:">循环</a></li>
+                    <li><a href="javascript:">神经</a></li>
+                    <li><a href="javascript:">内分泌</a></li>
+                    <li><a href="javascript:">肾脏</a></li>
+                    <li><a href="javascript:">传染病</a></li>
+                    <li><a href="javascript:">急救医</a></li>
+                </ul>
+            </li>
+            <li>
+                <h4>普外科:</h4>
+                <ul class="department_con">
+                    <li><a href="javascript:">肝脏</a></li>
+                    <li><a href="javascript:">胆道</a></li>
+                    <li><a href="javascript:">胰腺</a></li>
+                    <li><a href="javascript:">胃肠</a></li>
+                    <li><a href="javascript:">肛肠</a></li>
+                    <li><a href="javascript:">血管疾病</a></li>
+                    <li><a href="javascript:">甲状腺</a></li>
+                    <li><a href="javascript:">乳房肿瘤</a></li>
+                    <li><a href="javascript:">外伤</a></li>
+                </ul>
+            </li>
+            <li>
+                <h4>门诊部：</h4>
+                <ul class="department_con">
+                    <li><a href="javascript:">外科</a></li>
+                    <li><a href="javascript:">妇科</a></li>
+                    <li><a href="javascript:">内科</a></li>
+                    <li><a href="javascript:">耳鼻喉科</a></li>
+                    <li><a href="javascript:">中医科</a></li>
+                    <li><a href="javascript:">医学检测</a></li>
+                </ul>
+            </li>
+            <li>
+                <h4>急诊科：</h4>
+                <ul class="department_con">
+                    <li><a href="javascript:">全科</a></li>
+                    <li><a href="javascript:">内科</a></li>
+                    <li><a href="javascript:">外科</a></li>
+                    <li><a href="javascript:">妇科</a></li>
+                    <li><a href="javascript:">儿童</a></li>
+                    <li><a href="javascript:">五官科</a></li>
+                    <li><a href="javascript:">发热</a></li>
+                    <li><a href="javascript:">腹泻</a></li>
+                </ul>
+            </li>
+            <li>
+                <h4>神经科：</h4>
+                <ul class="department_con">
+                    <li><a href="javascript:">脑梗塞</a></li>
+                    <li><a href="javascript:">脑出血</a></li>
+                    <li><a href="javascript:">偏头痛</a></li>
+                    <li><a href="javascript:">脑部炎症</a></li>
+                    <li><a href="javascript:">脑膜炎</a></li>
+                    <li><a href="javascript:">脊髓炎</a></li>
+                    <li><a href="javascript:">癫痫</a></li>
+                    <li><a href="javascript:">痴呆</a></li>
+                    <li><a href="javascript:">坐骨神经痛</a></li>
+                </ul>
+            </li>
+            <li>
+                <h4>卫生服务：</h4>
+                <ul class="department_con">
+                    <li><a href="javascript:">预防保健科</a></li>
+                    <li><a href="javascript:">儿童保健科</a></li>
+                    <li><a href="javascript:">妇女保健科</a></li>
+                    <li><a href="javascript:">全科诊疗</a></li>
+                    <li><a href="javascript:">门诊</a></li>
+                    <li><a href="javascript:">开展体检科</a></li>
+                </ul>
+            </li>
+        </ul>
+        <a href="javascript:">打开更多 <i></i></a>
+    </div>
+</div>
+
+<!--科室排班-->
+<div class="duty">
+    <h4>科室排班</h4>
+    <ul>
+        <li>
+            <div class="duty_time">
+                <ul>
+                    <li>
+                        <ul class="date">
+                            <li>
+                                <p>04/16</p>
+                                <p>周二</p>
+                            </li>
+                            <li>
+                                <p>04/17</p>
+                                <p>周三</p>
+                            </li>
+                            <li>
+                                <p>04/18</p>
+                                <p>周四</p>
+                            </li>
+                            <li>
+                                <p>04/19</p>
+                                <p>周五</p>
+                            </li>
+                            <li class="date_li_active">
+                                <p>04/20</p>
+                                <p>周六</p>
+                            </li>
+                            <li class="date_li_active">
+                                <p>04/21</p>
+                                <p>周日</p>
+                            </li>
+                            <li>
+                                <p>04/22</p>
+                                <p>周一</p>
+                            </li>
+
+
+                        </ul>
+                    </li>
+                    <li>
+                        <ul class="about">
+                            <li>
+                                <p>上</p>
+                                <p>午</p>
+                            </li>
+                            <li>预约</li>
+                            <li>预约</li>
+                            <li></li>
+                            <li>预约</li>
+                            <li></li>
+                            <li></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <ul class="about">
+                            <li>
+                                <p>下</p>
+                                <p>午</p>
+                            </li>
+                            <li>预约</li>
+                            <li></li>
+                            <li>预约</li>
+                            <li></li>
+                            <li>预约</li>
+                            <li></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <div class="duty_info">
+                <ul class="duty_info_con">
+                    <li>
+                        <a href="javascript:">
+                            <img src="./img/doctor1.png" />
+                        </a>
+                        <h4>梁世杰</h4>
+                        <p>副主任医师</p>
+                    </li>
+                    <li>
+                        擅长普通外科常见病的诊治，尤其对小儿疝气、胃肠、甲状腺...
+                    </li>
+                    <li>
+                        <p>
+                            <img src="./img/time.png" />预约 <span>2311</span>
+                        </p>
+                        <p>
+                            <img src="./img/heart.png" />好评 <span>231</span>
+                        </p>
+                    </li>
+                </ul>
+                <ul class="other">
+                    <li><a href="javascript:">预约</a></li>
+                    <li><a href="javascript:">咨询</a></li>
+                    <li><a href="javascript:">加号</a></li>
+                </ul>
+            </div>
+        </li>
+        <li>
+            <div class="duty_time">
+                <ul>
+                    <li>
+                        <ul class="date">
+                            <li>
+                                <p>04/16</p>
+                                <p>周二</p>
+                            </li>
+                            <li>
+                                <p>04/17</p>
+                                <p>周三</p>
+                            </li>
+                            <li>
+                                <p>04/18</p>
+                                <p>周四</p>
+                            </li>
+                            <li>
+                                <p>04/19</p>
+                                <p>周五</p>
+                            </li>
+                            <li class="date_li_active">
+                                <p>04/20</p>
+                                <p>周六</p>
+                            </li>
+                            <li class="date_li_active">
+                                <p>04/21</p>
+                                <p>周日</p>
+                            </li>
+                            <li>
+                                <p>04/22</p>
+                                <p>周一</p>
+                            </li>
+
+
+                        </ul>
+                    </li>
+                    <li>
+                        <ul class="about">
+                            <li>
+                                <p>上</p>
+                                <p>午</p>
+                            </li>
+                            <li>预约</li>
+                            <li>预约</li>
+                            <li></li>
+                            <li>预约</li>
+                            <li></li>
+                            <li></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <ul class="about">
+                            <li>
+                                <p>下</p>
+                                <p>午</p>
+                            </li>
+                            <li>预约</li>
+                            <li></li>
+                            <li>预约</li>
+                            <li></li>
+                            <li>预约</li>
+                            <li></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <div class="duty_info">
+                <ul class="duty_info_con">
+                    <li>
+                        <a href="javascript:">
+                            <img src="./img/doctor2.png" />
+                        </a>
+                        <h4>梁世杰</h4>
+                        <p>副主任医师</p>
+                    </li>
+                    <li>
+                        擅长普通外科常见病的诊治，尤其对小儿疝气、胃肠、甲状腺...
+                    </li>
+                    <li>
+                        <p>
+                            <img src="./img/time.png" />预约 <span>2311</span>
+                        </p>
+                        <p>
+                            <img src="./img/heart.png" />好评 <span>231</span>
+                        </p>
+                    </li>
+                </ul>
+                <ul class="other">
+                    <li><a href="javascript:">预约</a></li>
+                    <li><a href="javascript:">咨询</a></li>
+                    <li><a href="javascript:">加号</a></li>
+                </ul>
+            </div>
+        </li>
+        <li>
+            <div class="duty_time">
+                <ul>
+                    <li>
+                        <ul class="date">
+                            <li>
+                                <p>04/16</p>
+                                <p>周二</p>
+                            </li>
+                            <li>
+                                <p>04/17</p>
+                                <p>周三</p>
+                            </li>
+                            <li>
+                                <p>04/18</p>
+                                <p>周四</p>
+                            </li>
+                            <li>
+                                <p>04/19</p>
+                                <p>周五</p>
+                            </li>
+                            <li class="date_li_active">
+                                <p>04/20</p>
+                                <p>周六</p>
+                            </li>
+                            <li class="date_li_active">
+                                <p>04/21</p>
+                                <p>周日</p>
+                            </li>
+                            <li>
+                                <p>04/22</p>
+                                <p>周一</p>
+                            </li>
+
+
+                        </ul>
+                    </li>
+                    <li>
+                        <ul class="about">
+                            <li>
+                                <p>上</p>
+                                <p>午</p>
+                            </li>
+                            <li>预约</li>
+                            <li>预约</li>
+                            <li></li>
+                            <li>预约</li>
+                            <li></li>
+                            <li></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <ul class="about">
+                            <li>
+                                <p>下</p>
+                                <p>午</p>
+                            </li>
+                            <li>预约</li>
+                            <li></li>
+                            <li>预约</li>
+                            <li></li>
+                            <li>预约</li>
+                            <li></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <div class="duty_info">
+                <ul class="duty_info_con">
+                    <li>
+                        <a href="javascript:">
+                            <img src="./img/doctor3.png" />
+                        </a>
+                        <h4>梁世杰</h4>
+                        <p>副主任医师</p>
+                    </li>
+                    <li>
+                        擅长普通外科常见病的诊治，尤其对小儿疝气、胃肠、甲状腺...
+                    </li>
+                    <li>
+                        <p>
+                            <img src="./img/time.png" />预约 <span>2311</span>
+                        </p>
+                        <p>
+                            <img src="./img/heart.png" />好评 <span>231</span>
+                        </p>
+                    </li>
+                </ul>
+                <ul class="other">
+                    <li><a href="javascript:">预约</a></li>
+                    <li><a href="javascript:">咨询</a></li>
+                    <li><a href="javascript:">加号</a></li>
+                </ul>
+            </div>
+        </li>
+        <li>
+            <div class="duty_time">
+                <ul>
+                    <li>
+                        <ul class="date">
+                            <li>
+                                <p>04/16</p>
+                                <p>周二</p>
+                            </li>
+                            <li>
+                                <p>04/17</p>
+                                <p>周三</p>
+                            </li>
+                            <li>
+                                <p>04/18</p>
+                                <p>周四</p>
+                            </li>
+                            <li>
+                                <p>04/19</p>
+                                <p>周五</p>
+                            </li>
+                            <li class="date_li_active">
+                                <p>04/20</p>
+                                <p>周六</p>
+                            </li>
+                            <li class="date_li_active">
+                                <p>04/21</p>
+                                <p>周日</p>
+                            </li>
+                            <li>
+                                <p>04/22</p>
+                                <p>周一</p>
+                            </li>
+
+
+                        </ul>
+                    </li>
+                    <li>
+                        <ul class="about">
+                            <li>
+                                <p>上</p>
+                                <p>午</p>
+                            </li>
+                            <li>预约</li>
+                            <li>预约</li>
+                            <li></li>
+                            <li>预约</li>
+                            <li></li>
+                            <li></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <ul class="about">
+                            <li>
+                                <p>下</p>
+                                <p>午</p>
+                            </li>
+                            <li>预约</li>
+                            <li></li>
+                            <li>预约</li>
+                            <li></li>
+                            <li>预约</li>
+                            <li></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <div class="duty_info">
+                <ul class="duty_info_con">
+                    <li>
+                        <a href="javascript:">
+                            <img src="./img/doctor4.png" />
+                        </a>
+                        <h4>梁世杰</h4>
+                        <p>副主任医师</p>
+                    </li>
+                    <li>
+                        擅长普通外科常见病的诊治，尤其对小儿疝气、胃肠、甲状腺...
+                    </li>
+                    <li>
+                        <p>
+                            <img src="./img/time.png" />预约 <span>2311</span>
+                        </p>
+                        <p>
+                            <img src="./img/heart.png" />好评 <span>231</span>
+                        </p>
+                    </li>
+                </ul>
+                <ul class="other">
+                    <li><a href="javascript:">预约</a></li>
+                    <li><a href="javascript:">咨询</a></li>
+                    <li><a href="javascript:">加号</a></li>
+                </ul>
+            </div>
+        </li>
+        <li>
+            <div class="duty_time">
+                <ul>
+                    <li>
+                        <ul class="date">
+                            <li>
+                                <p>04/16</p>
+                                <p>周二</p>
+                            </li>
+                            <li>
+                                <p>04/17</p>
+                                <p>周三</p>
+                            </li>
+                            <li>
+                                <p>04/18</p>
+                                <p>周四</p>
+                            </li>
+                            <li>
+                                <p>04/19</p>
+                                <p>周五</p>
+                            </li>
+                            <li class="date_li_active">
+                                <p>04/20</p>
+                                <p>周六</p>
+                            </li>
+                            <li class="date_li_active">
+                                <p>04/21</p>
+                                <p>周日</p>
+                            </li>
+                            <li>
+                                <p>04/22</p>
+                                <p>周一</p>
+                            </li>
+
+
+                        </ul>
+                    </li>
+                    <li>
+                        <ul class="about">
+                            <li>
+                                <p>上</p>
+                                <p>午</p>
+                            </li>
+                            <li>预约</li>
+                            <li>预约</li>
+                            <li></li>
+                            <li>预约</li>
+                            <li></li>
+                            <li></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <ul class="about">
+                            <li>
+                                <p>下</p>
+                                <p>午</p>
+                            </li>
+                            <li>预约</li>
+                            <li></li>
+                            <li>预约</li>
+                            <li></li>
+                            <li>预约</li>
+                            <li></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <div class="duty_info">
+                <ul class="duty_info_con">
+                    <li>
+                        <a href="javascript:">
+                            <img src="./img/doctor5.png" />
+                        </a>
+                        <h4>梁世杰</h4>
+                        <p>副主任医师</p>
+                    </li>
+                    <li>
+                        擅长普通外科常见病的诊治，尤其对小儿疝气、胃肠、甲状腺...
+                    </li>
+                    <li>
+                        <p>
+                            <img src="./img/time.png" />预约 <span>2311</span>
+                        </p>
+                        <p>
+                            <img src="./img/heart.png" />好评 <span>231</span>
+                        </p>
+                    </li>
+                </ul>
+                <ul class="other">
+                    <li><a href="javascript:">预约</a></li>
+                    <li><a href="javascript:">咨询</a></li>
+                    <li><a href="javascript:">加号</a></li>
+                </ul>
+            </div>
+        </li>
+    </ul>
+    <a href="javascript:">打开更多 <i></i></a>
+</div>
+</body>
+<script src="./js/jquery-1.12.4.min.js"></script>
+<script src="./js/register.js"></script>
+</html>

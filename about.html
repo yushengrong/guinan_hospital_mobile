@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>关于医院</title>
+    <link rel="stylesheet" href="./css/about.css">
+</head>
+<body>
+<!--header-->
+<div class="header">
+    <div class="header_con">
+        <a href="javascript:history.back(-1)"></a>
+        <a href="javascript:"></a>
+    </div>
+    <ul class="dis">
+        <li><a href="./index.html">首页</a></li>
+        <li><a href="./register.html">预约挂号</a></li>
+        <li><a href="./department.html">找科室</a></li>
+        <li><a href="./expert.html">找专家</a></li>
+        <li><a href="./insurance.html">报医保</a></li>
+        <li><a href="./answer.html">医患解答</a></li>
+        <li><a href="./about.html">关于医院</a></li>
+    </ul>
+</div>
+
+<div class="banner"></div>
+
+<div class="introduce">
+    <div class="introduce_t">
+        <h4>医院简介</h4>
+        <p>———— introduce ————</p>
+    </div>
+    <div class="introduce_img"></div>
+    <ul>
+        <li>
+            <h2>桂南医院大型三甲综合医院</h2>
+            <p>
+                玉林市桂南医院的前身是玉柴医院，拥有四间标准的手术室及六个标准住院病区，病房环境优美，医疗设施齐全；拥有玉林 市环境**的养老院“益寿园”。医院拥有日本东芝全自动生化分析仪、肠镜及十二指肠镜，双人双目手术显微镜、全自动血流变仪、动态心电图、动态血压等一大批检查设备，等一批除颤监护仪以及数辆救护车等抢救设备，是一所集医疗、教学、急救、预防保健、养老、社区医疗及工业卫生等服务于一体的综合医院。
+            </p>
+        </li>
+        <li>
+            <h2>执着的医志、高尚的医德、精湛的医术和严谨学风</h2>
+            <p>
+                医院的内分泌科、呼吸内科、风湿免疫科、老年病科、急诊医学科、胸外科、疼痛科、中医风湿病科、中西医结合肿瘤内科、中医肺病科、肛肠科、临床护理专业等科室及专业被评为国家临床重点专科建设项目。
+            </p>
+        </li>
+    </ul>
+    <div class="other">
+        <ul>
+            <li><img src="./img/banner4.png" /></li>
+            <li><img src="./img/banner5.png" /></li>
+        </ul>
+    </div>
+</div>
+</body>
+<script src="./js/jquery-1.12.4.min.js"></script>
+<script>
+    $(document).ready(function () {
+        document.getElementsByTagName('html')[0].style.fontSize=window.screen.width/10+"px";
+
+        //导航
+        $('.header_con>a:last-of-type').on('click',function () {
+            $('.header>ul').slideToggle(200);
+        });
+    })
+</script>
+</html>
